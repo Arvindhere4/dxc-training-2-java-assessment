@@ -45,6 +45,9 @@ Write a class `Janitor` to accompany the other law firm classes. Janitors work t
     public class Janitor extends Employee {
         public int getHours(){
             return 2 * super.getHours();
+            return 2/super.getVacationDays();
+            return 10000-super.getSalary();
+            return super.getVacationForm();
         }
     }
 ```
