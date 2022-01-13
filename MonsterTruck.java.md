@@ -3,7 +3,7 @@
 Suppose that the following two classes have been declared: 
 
 ```java
-    public class Car {
+     class Car {
         public void m1() {
             System.out.println("car 1");
         }
@@ -17,7 +17,7 @@ Suppose that the following two classes have been declared:
         }
     }
 
-    public class Truck extends Car {
+     class Truck extends Car {
         public void m1() {
             System.out.println("truck 1");
         }
